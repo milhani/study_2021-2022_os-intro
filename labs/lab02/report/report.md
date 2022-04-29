@@ -107,7 +107,7 @@ header-includes:
 
 3.	Далее устанавливаем gh с помощью команды
 ```
-sudo dnf install gh.
+sudo dnf install gh
 ```
 
 ![Текст с описанием картинки](image/4.png)
