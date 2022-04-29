@@ -92,9 +92,9 @@ header-includes:
 | `gpg --list-secret-keys --keyid-format LONG`       | Вывод списка ключей                                                                                                           |
 | `gh auth login`       | Авторизация в gh                                                                                |
 | `rm package.json`       | Удаление лишних файлов из репозитория                                                                             |
-| `git add .
+| ```git add .
    git commit -am 'feat(main): make course structure'
-   git push`       | Отправить файлы на сервер |                                                                         
+   git push```       | Отправить файлы на сервер |                                                                         
                                                                          |
 
 
