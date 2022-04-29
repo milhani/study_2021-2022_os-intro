@@ -94,8 +94,8 @@ header-includes:
 | `rm package.json`       | Удаление лишних файлов из репозитория                                                                             |
 | `git add .
    git commit -am 'feat(main): make course structure'
-   git push`       | Отправить файлы на сервер                                                                             |
-| `gpg --armor --export <PGP Fingerprint> | xclip -sel clip`       | Скопировать PGP код в буфер обмена                                                                          |
+   git push`       | Отправить файлы на сервер |                                                                         
+                                                                         |
 
 
 # Выполнение лабораторной работы
