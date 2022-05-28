@@ -95,7 +95,7 @@ header-includes:
 
 5. Меняю теги на те, что использовала в проектах. 
 
-![Tags](image/tags1.png){ #fig:001 width=70% }
+![Tags](image/tags.png){ #fig:001 width=70% }
 
 ![Tags on site](image/tags2.png){ #fig:001 width=70% }
 
