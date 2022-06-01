@@ -101,7 +101,7 @@ touch common.h server.c client.c Makefile
 
 6. Компилируем коды с помощью команды make all. 
 
-![make all](image/make all.png){ #fig:001 width=70% }
+![make all](image/[make all].png){ #fig:001 width=70% }
 
 7. Проверим работу скриптов. Запустим в одном терминале ./server, а в нескольких других ./client. Спустя 30 секунд сервер прекратить работу. Скрипт работает корректно. 
 
