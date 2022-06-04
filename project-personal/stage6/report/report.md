@@ -1,6 +1,6 @@
 ---
 ## Front matter
-title: "Отчёт по ИП этап 5"
+title: "Отчёт по ИП этап 6"
 author: "Ханина Людмила Константиновна"
 
 ## Bibliography
@@ -63,63 +63,121 @@ header-includes:
 
 # Задание
 
-* Сделать записи для персональных проектов.
+* Сделать поддержку английского и русского языков.
+* Разместить элементы сайта на обоих языках.
+* Разместить контент на обоих языках.
 * Сделать пост по прошедшей неделе.
-* Добавить пост на тему по выбору. 
+* Добавить пост на тему по выбору (на двух языках). 
 
 # Выполнение лабораторной работы
 
 1. Запускаю ~/bin/hugo server и начинаю работать с сайтом. 
 
-![Начало](image/1.png){ #fig:001 width=70% }
+2.  Захожу в файл macblog/config/_default/languages.yaml. Добавляю туда русский язык. 
 
-2.  Захожу в файл macblog/content/project. Добавляю туда два проекта. 
+![macblog/config/_default/languages.yaml](image/lang.png){ #fig:001 width=70% }
 
-![Project 1](image/project1.png){ #fig:001 width=70% }
+3. Меняю файл menus.yaml на файлы menus.ru.yaml и menus.en.yaml. Меняем названия разделов на русском. 
 
-![Project 1 on site](image/project2.png){ #fig:001 width=70% }
+![Файлы](image/menuses.png){ #fig:001 width=70% }
 
-![Project 2](image/saper1.png){ #fig:001 width=70% }
+![menus.ru.yaml](image/menus.ru.png){ #fig:001 width=70% }
 
-![Project 2 on site](image/saper2.png){ #fig:001 width=70% }
+4. Далее идем в папку content и создаем там две папки ru и en, где будут лежать все необходимые папки с материалами на русском и английском языках соответственно.  
 
-3. Захожу в файл macblog/content/publications. Добавляю туда публикацию.  
+![content](image/content.png){ #fig:001 width=70% }
 
-![Publication](image/publication.png){ #fig:001 width=70% }
+5. Начинаем переводить данные на русский. Достижения:
 
-![Publication on site](image/publication2.png){ #fig:001 width=70% }
+![Достижения](image/accom1.png){ #fig:001 width=70% }
 
-4. Добавляю резюмю в папку static/uploads. 
+![Достижения](image/accom2.png){ #fig:001 width=70% }
 
-![Resume](image/resume.png){ #fig:001 width=70% }
+6. Контакты:
 
-5. Меняю теги на те, что использовала в проектах. 
+![Контакты](image/contact1.png){ #fig:001 width=70% }
 
-![Tags](image/tags.png){ #fig:001 width=70% }
+![Контакты](image/contact2.png){ #fig:001 width=70% }
 
-![Tags on site](image/tags2.png){ #fig:001 width=70% }
+7. События:
 
-6. Cоздаю событие в папке content/event. 
+![События](image/event1.png){ #fig:001 width=70% }
 
-![Event](image/event1.png){ #fig:001 width=70% }
+![События](image/event2.png){ #fig:001 width=70% }
 
-![Event on site](image/event2.png){ #fig:001 width=70% }
+8. Опыт:
 
-7. Меняю контакты: почту, телефон, адрес. 
+![Опыт](image/exper1.png){ #fig:001 width=70% }
 
-![Contact](image/contact.png){ #fig:001 width=70% }
+![Опыт](image/exper2.png){ #fig:001 width=70% }
 
-8. Далее создаю пост про прошедшую неделю на основе других постов. Аналогично создаю пост на тему «Языки научного программирования». 
+9. Избранные публикации:
+
+![Избранные публикации](image/featured1.png){ #fig:001 width=70% }
+
+![Избранные публикации](image/featured2.png){ #fig:001 width=70% }
+
+10. Посты:
 
 ![Посты](image/post1.png){ #fig:001 width=70% }
 
-9. Последний шаг для изменения репозитория:
+![Посты](image/post2.png){ #fig:001 width=70% }
+
+11. Проекты:
+
+![Проекты](image/proj1.png){ #fig:001 width=70% }
+
+![Проекты](image/proj2.png){ #fig:001 width=70% }
+
+12. Публикации:
+
+![Публикации](image/publish1.png){ #fig:001 width=70% }
+
+![Публикации](image/publish2.png){ #fig:001 width=70% }
+
+13. Навыки:
+
+![Навыки](image/skills1.png){ #fig:001 width=70% }
+
+![Навыки](image/skills2.png){ #fig:001 width=70% }
+
+14. Теперь переведем некоторые разделы на английский. Биография:
+
+![Биография](image.en/bio.png){ #fig:001 width=70% }
+
+15. Контакты:
+
+![Контакты](image.en/contact.png){ #fig:001 width=70% }
+
+16. Публикации:
+
+![Публикации](image.en/public.png){ #fig:001 width=70% }
+
+17. Достижения и посты:
+
+![Достижения и посты](image.en/accomppost.png){ #fig:001 width=70% }
+
+18. Проекты и события:
+
+![Проекты и события](image.en/projevent.png){ #fig:001 width=70% }
+
+19. Навыки и опыт: 
+
+![Навыки и опыт](image.en/skillandexp.png){ #fig:001 width=70% }
+
+20. Далее создадим пост про прошедшую неделю на двух языках. Аналогично создадим пост на тему «Депривация сна». 
+
+![Новые посты на русском](image/newposts.png){ #fig:001 width=70% }
+
+![Новые посты на английском](image.en/newposts.png){ #fig:001 width=70% }
+
+21. Последний шаг для изменения репозитория:
 ```
 git add .
-git commit -am "fifth week"
+git commit -am "sixth week"
 git push
 ```
 
 # Выводы
 
-Сделала два новых поста и добавила всю оставшуюся информацию о себе. 
+Сделала сайт двуязычным, перевела материалы на английский и русский и создала посты на двух языках. 
